@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#f4f4f2"/>
+
+  <text x="450" y="45" text-anchor="middle" font-family="Arial" font-size="25" fill="#303c46" font-weight="bold">
+    ChatGPT and Learning Programming
+  </text>
+
+  <!-- Laptop screen -->
+  <rect x="55" y="85" width="485" height="310" rx="12" fill="#303c46"/>
+  <rect x="70" y="100" width="455" height="280" fill="#ffffff"/>
+
+  <!-- Browser bar -->
+  <rect x="70" y="100" width="455" height="38" fill="#e8e8e8"/>
+  <circle cx="90" cy="119" r="6" fill="#aaa"/>
+  <circle cx="110" cy="119" r="6" fill="#aaa"/>
+  <circle cx="130" cy="119" r="6" fill="#aaa"/>
+  <text x="165" y="124" font-family="Arial" font-size="13" fill="#555">Python Code Editor</text>
+
+  <!-- Code lines -->
+  <rect x="85" y="155" width="205" height="205" fill="#f1f3f5"/>
+  <g font-family="monospace" font-size="15">
+    <text x="100" y="185" fill="#526b83">score = 75</text>
+    <text x="100" y="215" fill="#805b8c">if score &gt;= 50:</text>
+    <text x="115" y="245" fill="#477b60">print("Passed")</text>
+    <text x="100" y="275" fill="#805b8c">else:</text>
+    <text x="115" y="305" fill="#477b60">print("Try again")</text>
+  </g>
+
+  <!-- Output -->
+  <rect x="305" y="155" width="200" height="205" fill="#fafafa" stroke="#ddd"/>
+  <text x="325" y="185" font-family="Arial" font-size="15" fill="#333" font-weight="bold">Program Output</text>
+  <line x1="320" y1="198" x2="490" y2="198" stroke="#ddd"/>
+  <text x="325" y="230" font-family="monospace" font-size="15" fill="#477b60">Passed</text>
+  <text x="325" y="270" font-family="Arial" font-size="13" fill="#666">The code runs</text>
+  <text x="325" y="290" font-family="Arial" font-size="13" fill="#666">successfully.</text>
+
+  <!-- Laptop base -->
+  <path d="M35 395 L560 395 L590 420 L10 420 Z" fill="#9ba3aa"/>
+  <rect x="260" y="395" width="90" height="8" rx="3" fill="#737d85"/>
+
+  <!-- ChatGPT panel -->
+  <rect x="610" y="85" width="245" height="335" rx="12" fill="#ffffff" stroke="#aeb8bf" stroke-width="2"/>
+  <rect x="610" y="85" width="245" height="50" rx="10" fill="#e5e9ec"/>
+  <text x="732" y="116" text-anchor="middle" font-family="Arial" font-size="21" fill="#303c46" font-weight="bold">ChatGPT</text>
+
+  <rect x="628" y="155" width="210" height="62" rx="8" fill="#edf1f3"/>
+  <text x="643" y="180" font-family="Arial" font-size="14" fill="#333">Explain this code</text>
+  <text x="643" y="200" font-family="Arial" font-size="13" fill="#555">step by step.</text>
+
+  <rect x="628" y="230" width="210" height="75" rx="8" fill="#e7eee9"/>
+  <text x="643" y="255" font-family="Arial" font-size="13" fill="#344b3c">This condition checks</text>
+  <text x="643" y="275" font-family="Arial" font-size="13" fill="#344b3c">if the score is 50</text>
+  <text x="643" y="295" font-family="Arial" font-size="13" fill="#344b3c">or higher.</text>
+
+  <text x="732" y="350" text-anchor="middle" font-family="Arial" font-size="14" fill="#526b83">Explain • Practice • Debug</text>
+
+  <text x="450" y="475" text-anchor="middle" font-family="Arial" font-size="17" fill="#45545e">
+    An AI assistant helping beginners understand programming
+  </text>
+</svg>
